@@ -1,38 +1,46 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800');
+
+.auth-inner {
+    width: 450px;
+    margin: auto;
+    background: #ffffff;
+    color: black;
+    box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+    padding: 50px 55px 45px 55px;
+    border-radius: 15px;
+    transition: all .3s;
+    margin-top: 100px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.div--center {
+    display: flex;
+    justify-content: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+* {
+    margin: 0;
+    box-sizing: border-box;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+body {
+    background: rgba(35, 216, 248, 0.959);
+
 }
 
-.App-link {
-  color: #61dafb;
+.name-style {
+    margin-top: 10px;
+    max-width: 400px;
+    line-height: 10px;
+    padding-block: 20px;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #f15079ea;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.address-style {
+    max-width: 400px;
+    line-height: 10px;
+    font-size: 20px;
+    color: #000000;
 }

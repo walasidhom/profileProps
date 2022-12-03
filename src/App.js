@@ -6,10 +6,15 @@ import ProfileComponent from './profile/ProfileComponent';
 
 
 function App() {
-	const Profile = { fullName:'wala' , bio:'walaaaaaa' , profession:'ingenieure'};
+	const profile =
+	{
+		fullName: 'Wala Sidhom',
+		bio: "Innovative optimized solution seeker. Excited to be a Frontend web developer as a new career. I am ambitious, adventurous, animated, and assiduous. Thus, I am passionate about learning new technologies, bringing ideas to life, and working with dedicated teams to build efficient and robust applications suited to the user's needs.",
+		profession: 'Frontend Developer Engineer'
+	};
   return (
     <Container className='auth-inner'>
-	    <ProfileComponent fullName='wala' bio='walaaaaaa' profession='ingenieure'>
+		  <ProfileComponent fullName={profile.fullName} bio={profile.bio} profession={profile.profession}>
 			  <div className='div--center'>
 			  	<img
       				src={ProfilePhoto}
